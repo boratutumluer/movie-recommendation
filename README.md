@@ -17,5 +17,6 @@ In this project, we'll implement content-based filtering method use movies overv
 </p>
 
 <h3>How to open the application on your local computer?</h3>
+<img src="/screenshots/terminal.jpg" alt="Alt text" title="Optional title">
 ![terminal](https://user-images.githubusercontent.com/79102317/230177541-f80e403c-b460-42b5-9bbd-632cc8e9f575.png)
 
