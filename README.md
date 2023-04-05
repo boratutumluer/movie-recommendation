@@ -17,7 +17,8 @@ In this project, we'll implement content-based filtering method use movies overv
 </p>
 
 <h3>How to open the application on your local computer?</h3>
-<p>
-  
+
+<p align="center">
+  ![](screenshots/home_page.png)
 </p>
 
