@@ -17,7 +17,6 @@ In this project, we'll implement content-based filtering method use movies overv
 </p>
 
 <h3>How to open the application on your local computer?</h3>
-![alt text](https://github.com/boratutumluer/movie-recommendation/blob/master/screenshots/terminal.png?raw=true)
 <p align="center">
 <img src="[https://serokell.io/files/cf/cfkdnv2r.Feature__Engineering_pic1.png](https://github.com/boratutumluer/movie-recommendation/blob/master/screenshots/terminal.png)" width="600"/>
 </p>
