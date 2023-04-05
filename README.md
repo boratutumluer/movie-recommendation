@@ -17,4 +17,5 @@ In this project, we'll implement content-based filtering method use movies overv
 </p>
 
 <h3>How to open the application on your local computer?</h3>
-![terminal](./screenshots/terminal.png)
+![alt text](https://github.com/boratutumluer/movie-recommendation/blob/master/screenshots/terminal.png?raw=true)
+
