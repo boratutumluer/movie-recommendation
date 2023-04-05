@@ -16,5 +16,8 @@ A recommendation system is a type of information filtering system that predicts 
 In this project, we'll implement content-based filtering method use movies overview that in TMBD movie website. And also in order to movies posters and links we'll use TMBD API.
 </p>
 
-<h3>App screenshots</h3>
+<h3>How to open the application on your local computer?</h3>
+<p>
+  
+</p>
 
