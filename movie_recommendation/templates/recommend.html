@@ -1,0 +1,148 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Recommendation Page
+{% endblock %}
+
+{% block content %}
+<div style="margin-top: 50px; padding-top: 30px; display: table;  margin-right: auto;  margin-left: auto;">
+    <h2 style="color:#fff; text-align: center;">Choose a Movie</h2>
+    <form method="POST" action="/recommend">
+        <div class="select">
+            <select name="movie" id="movies">
+                <option selected disabled>Movies</option>
+                {% for item in items %}
+                <option>{{ item }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button type="submit" class="btn btn-warning"
+                style="display: table;  margin-top: 20px; margin-right: auto;  margin-left: auto;">
+            Submit
+        </button>
+    </form>
+</div>
+<div style="margin-left: 10em; margin-top: 2em;">
+    <form method="POST" action="/sorting">
+        <select name="sort_key" id="sort_key">
+            <option selected disabled>Sorting</option>
+            <option value="popularity">Popularity</option>
+            <option value="rating">Weighted Rate</option>
+            <option value="duration">Duration</option>
+        </select>
+        <button type="submit" class="btn btn-warning">Sort</button>
+    </form>
+</div>
+<div style="display: flex; margin-top: 4em; margin-left: 8em; margin-right: 8em">
+    {% for poster in movie_poster %}
+    {% if loop.index == 1 %}
+    <div class="blog" style="background-image: url({{ poster }}); background-size: cover;">
+        {% endif %}
+        {% endfor %}
+        <div class="title-box">
+            {% for movie in recommended_movies %}
+            {% if loop.index == 1 %}
+            <h3>{{ movie }}</h3>
+            {% endif %}
+            {% endfor %}
+            <hr/>
+        </div>
+        <div class="imdb">
+            {% for link in movie_link %}
+            {% if loop.index == 1 %}
+            <a href="{{ link }}" target="_blank" class="btn btn-warning">IMDb</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="color-overlay"></div>
+    </div>
+    {% for poster in movie_poster %}
+    {% if loop.index == 2 %}
+    <div class="blog" style="background-image: url({{ poster }}); background-size: cover;">
+        {% endif %}
+        {% endfor %}
+        <div class="title-box">
+            {% for movie in recommended_movies %}
+            {% if loop.index == 2 %}
+            <h3>{{ movie }}</h3>
+            {% endif %}
+            {% endfor %}
+            <hr/>
+        </div>
+        <div class="imdb">
+            {% for link in movie_link %}
+            {% if loop.index == 2 %}
+            <a href="{{ link }}" target="_blank" class="btn btn-warning">IMDb</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="color-overlay"></div>
+    </div>
+    {% for poster in movie_poster %}
+    {% if loop.index == 3 %}
+    <div class="blog" style="background-image: url({{ poster }}); background-size: cover;">
+        {% endif %}
+        {% endfor %}
+        <div class="title-box">
+            {% for movie in recommended_movies %}
+            {% if loop.index == 3 %}
+            <h3>{{ movie }}</h3>
+            {% endif %}
+            {% endfor %}
+            <hr/>
+        </div>
+        <div class="imdb">
+            {% for link in movie_link %}
+            {% if loop.index == 3 %}
+            <a href="{{ link }}" target="_blank" class="btn btn-warning">IMDb</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="color-overlay"></div>
+    </div>
+    {% for poster in movie_poster %}
+    {% if loop.index == 4 %}
+    <div class="blog" style="background-image: url({{ poster }}); background-size: cover;">
+        {% endif %}
+        {% endfor %}
+        <div class="title-box">
+            {% for movie in recommended_movies %}
+            {% if loop.index == 4 %}
+            <h3>{{ movie }}</h3>
+            {% endif %}
+            {% endfor %}
+            <hr/>
+        </div>
+        <div class="imdb">
+            {% for link in movie_link %}
+            {% if loop.index == 4 %}
+            <a href="{{ link }}" target="_blank" class="btn btn-warning">IMDb</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="color-overlay"></div>
+    </div>
+    {% for poster in movie_poster %}
+    {% if loop.index == 5 %}
+    <div class="blog" style="background-image: url({{ poster }}); background-size: cover;">
+        {% endif %}
+        {% endfor %}
+        <div class="title-box">
+            {% for movie in recommended_movies %}
+            {% if loop.index == 5 %}
+            <h3>{{ movie }}</h3>
+            {% endif %}
+            {% endfor %}
+            <hr/>
+        </div>
+        <div class="imdb">
+            {% for link in movie_link %}
+            {% if loop.index == 5 %}
+            <a href="{{ link }}" target="_blank" class="btn btn-warning">IMDb</a>
+            {% endif %}
+            {% endfor %}
+        </div>
+        <div class="color-overlay"></div>
+    </div>
+</div>
+{% endblock %}

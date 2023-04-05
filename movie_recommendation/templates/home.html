@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}
+Home Page
+{% endblock %}
+
+{% block content %}
+<div style="margin-top: 50px; padding-top: 30px; display: table;  margin-right: auto;  margin-left: auto;">
+    <h2 style="color:#fff; text-align: center;">Choose a Movie</h2>
+    <form method="POST" action="/recommend">
+        <div class="select">
+            <select name="movie">
+                <option selected disabled>Movies</option>
+                {% for item in items %}
+                <option>{{ item }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <button type="submit" class="btn btn-warning"
+                style="display: table;  margin-top: 20px; margin-right: auto;  margin-left: auto;">
+            Submit
+        </button>
+    </form>
+</div>
+{% endblock%}
