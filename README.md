@@ -21,4 +21,12 @@ In this project, we'll implement content-based filtering method use movies overv
 <p>
 After downloading the codes and opening on your IDE, you can run the application with the terminal "python run.py" command. As you can see in the screenshot, when you click on "http://127.0.0.1:5000" the application will open in your browser.
 </p>
+<h3>Screenshots from App</h3>
+<img src="https://github.com/boratutumluer/movie-recommendation/blob/master/screenshots/terminal.png" width="600"/>
+<img src="https://github.com/boratutumluer/movie-recommendation/blob/master/screenshots/home_page.png" width="600"/>
+<img src="https://github.com/boratutumluer/movie-recommendation/blob/master/screenshots/choose.png" width="600"/>
+<img src="https://github.com/boratutumluer/movie-recommendation/blob/master/screenshots/results.png" width="600"/>
+<img src="https://github.com/boratutumluer/movie-recommendation/blob/master/screenshots/sorting.png" width="600"/>
+<img src="https://github.com/boratutumluer/movie-recommendation/blob/master/screenshots/sorting_results.png" width="600"/>
+
 
