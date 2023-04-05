@@ -11,3 +11,9 @@ A recommendation system is a type of information filtering system that predicts 
   <li><strong>Content-based filtering:</strong>  recommends items based on their similarity to items that a user has liked in the past.</li>
   <li><strong>Collaborative filtering:</strong>  recommends items based on the preferences of similar users. This approach assumes that users who have similar tastes in the past are likely to have similar tastes in the future.</li>
 </ul>
+<p>
+In this project, we'll implement content-based filtering method use movies overview that in TMBD movie website. And also in order to movies posters and links we'll use TMBD API.
+</p>
+
+<h3>App screenshots</h3>
+
