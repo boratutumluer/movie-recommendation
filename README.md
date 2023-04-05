@@ -17,6 +17,4 @@ In this project, we'll implement content-based filtering method use movies overv
 </p>
 
 <h3>How to open the application on your local computer?</h3>
-![terminal](https://user-images.githubusercontent.com/79102317/230180906-9cd3d262-941e-4862-b82c-6219fd9ec5c2.png)
-<p>After downloading the codes and opening them on your IDE, you can run the application with the terminal python run.py command. As you can see in the screenshot, when you click on the application will open in your browser.</p>
 ![terminal](./screenshots/terminal.png)
