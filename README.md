@@ -17,7 +17,5 @@ In this project, we'll implement content-based filtering method use movies overv
 </p>
 
 <h3>How to open the application on your local computer?</h3>
-<p align="center">
 ![terminal](https://user-images.githubusercontent.com/79102317/230177541-f80e403c-b460-42b5-9bbd-632cc8e9f575.png)
-</p>
 <p>After downloading the codes and opening them on your IDE, you can run the application with the terminal "python run.py" command. As you can see in the screenshot, when you click on "http://127.0.0.1:5000" the application will open in your browser.</p>
