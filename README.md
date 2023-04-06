@@ -18,7 +18,7 @@ In this project, we'll implement content-based filtering method using movies ove
 
 <h3>How to open the application on your local computer?</h3>
 First, you need to import the requirements that the application needs using the requirements.txt file.
-```python
+```
 pip install -r requirements.txt
 ```
 
